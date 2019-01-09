@@ -1,0 +1,1 @@
+通过eureka-consumer-feignx项目复制添加以下jar包````<dependency>	<groupId>org.springframework.cloud</groupId>	<artifactId>spring-cloud-starter-hystrix</artifactId></dependency>````演示服务降级

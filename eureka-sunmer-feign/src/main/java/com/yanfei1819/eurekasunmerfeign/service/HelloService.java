@@ -1,0 +1,1 @@
+package com.yanfei1819.eurekasunmerfeign.service;import org.springframework.cloud.openfeign.FeignClient;import org.springframework.web.bind.annotation.GetMapping;/** * Created by shiyanfei on 2019-01-08. */@FeignClient("eureka-client")public interface HelloService {    // 必须是被调用服务的路径    @GetMapping("/sayHello")    String getConsunmer();}
