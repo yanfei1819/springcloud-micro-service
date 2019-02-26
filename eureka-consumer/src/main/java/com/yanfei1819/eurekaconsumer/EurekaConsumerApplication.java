@@ -14,7 +14,6 @@ public class EurekaConsumerApplication {
 		SpringApplication.run(EurekaConsumerApplication.class, args);
 	}
 
-
 	// 将RestTemplate纳入Spring容器进行管理
 	@Bean
 	public RestTemplate restTemplate(){
